@@ -1,0 +1,4 @@
+# Offline (heuristic) mode needs only the Python standard library.
+# AI mode needs the Anthropic SDK; Slack posting needs requests.
+anthropic>=0.40.0
+requests>=2.31.0

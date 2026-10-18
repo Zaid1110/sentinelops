@@ -1,0 +1,170 @@
+2026-10-18T09:00:11Z INFO cache hit
+2026-10-18T09:00:24Z INFO request served 200
+2026-10-18T09:01:15Z INFO cache hit
+2026-10-18T09:01:53Z INFO cache hit
+2026-10-18T09:02:11Z INFO request served 200
+2026-10-18T09:02:42Z INFO cache hit
+2026-10-18T09:03:22Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:03:44Z INFO health check ok
+2026-10-18T09:04:10Z INFO request served 200
+2026-10-18T09:04:47Z INFO health check ok
+2026-10-18T09:05:31Z INFO health check ok
+2026-10-18T09:05:58Z INFO health check ok
+2026-10-18T09:06:32Z INFO cache hit
+2026-10-18T09:06:34Z INFO request served 200
+2026-10-18T09:07:12Z INFO cache hit
+2026-10-18T09:07:17Z INFO health check ok
+2026-10-18T09:08:28Z INFO cache hit
+2026-10-18T09:08:33Z INFO cache hit
+2026-10-18T09:09:14Z INFO request served 200
+2026-10-18T09:09:59Z INFO health check ok
+2026-10-18T09:10:24Z INFO request served 200
+2026-10-18T09:10:39Z INFO cache hit
+2026-10-18T09:11:20Z INFO health check ok
+2026-10-18T09:11:52Z INFO health check ok
+2026-10-18T09:12:50Z INFO request served 200
+2026-10-18T09:12:53Z INFO cache hit
+2026-10-18T09:13:25Z INFO request served 200
+2026-10-18T09:13:27Z INFO cache hit
+2026-10-18T09:14:24Z INFO cache hit
+2026-10-18T09:14:59Z INFO request served 200
+2026-10-18T09:15:12Z INFO health check ok
+2026-10-18T09:15:14Z INFO request served 200
+2026-10-18T09:16:46Z INFO cache hit
+2026-10-18T09:16:51Z INFO health check ok
+2026-10-18T09:17:18Z INFO request served 200
+2026-10-18T09:17:51Z INFO health check ok
+2026-10-18T09:18:37Z INFO cache hit
+2026-10-18T09:18:44Z INFO health check ok
+2026-10-18T09:19:15Z INFO request served 200
+2026-10-18T09:19:24Z INFO request served 200
+2026-10-18T09:20:19Z INFO cache hit
+2026-10-18T09:20:53Z INFO health check ok
+2026-10-18T09:21:34Z INFO health check ok
+2026-10-18T09:21:39Z INFO cache hit
+2026-10-18T09:22:17Z INFO cache hit
+2026-10-18T09:22:45Z INFO request served 200
+2026-10-18T09:23:31Z INFO request served 200
+2026-10-18T09:23:58Z INFO health check ok
+2026-10-18T09:24:20Z INFO health check ok
+2026-10-18T09:24:56Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:25:16Z INFO cache hit
+2026-10-18T09:25:42Z INFO request served 200
+2026-10-18T09:26:19Z INFO health check ok
+2026-10-18T09:26:50Z INFO cache hit
+2026-10-18T09:27:44Z INFO cache hit
+2026-10-18T09:27:48Z INFO health check ok
+2026-10-18T09:28:17Z INFO health check ok
+2026-10-18T09:28:29Z INFO request served 200
+2026-10-18T09:29:41Z INFO request served 200
+2026-10-18T09:29:46Z INFO request served 200
+2026-10-18T09:30:40Z INFO cache hit
+2026-10-18T09:30:44Z INFO request served 200
+2026-10-18T09:31:23Z INFO cache hit
+2026-10-18T09:31:43Z INFO cache hit
+2026-10-18T09:32:35Z INFO cache hit
+2026-10-18T09:32:54Z INFO request served 200
+2026-10-18T09:33:25Z INFO request served 200
+2026-10-18T09:33:38Z INFO cache hit
+2026-10-18T09:34:11Z INFO cache hit
+2026-10-18T09:34:47Z INFO request served 200
+2026-10-18T09:35:14Z INFO request served 200
+2026-10-18T09:35:55Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:36:14Z INFO cache hit
+2026-10-18T09:36:52Z INFO health check ok
+2026-10-18T09:37:18Z INFO cache hit
+2026-10-18T09:37:46Z INFO cache hit
+2026-10-18T09:38:16Z INFO cache hit
+2026-10-18T09:38:40Z INFO health check ok
+2026-10-18T09:39:37Z INFO health check ok
+2026-10-18T09:39:56Z INFO request served 200
+2026-10-18T09:40:15Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:40:23Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:40:26Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:40:27Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:40:37Z INFO request served 200
+2026-10-18T09:40:42Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:40:45Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:40:48Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:40:50Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:40:51Z INFO request served 200
+2026-10-18T09:40:55Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:40:56Z INFO health check ok
+2026-10-18T09:41:10Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:41:16Z INFO request served 200
+2026-10-18T09:41:17Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:41:20Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:41:27Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:41:38Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:41:44Z INFO health check ok
+2026-10-18T09:41:45Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:41:50Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:41:54Z INFO request served 200
+2026-10-18T09:41:55Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:41:59Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:42:12Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:42:12Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:42:14Z INFO health check ok
+2026-10-18T09:42:16Z INFO request served 200
+2026-10-18T09:42:18Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:42:19Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:42:19Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:42:21Z INFO health check ok
+2026-10-18T09:42:23Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:42:25Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:42:29Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:42:47Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:43:11Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:43:21Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:43:25Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:43:27Z INFO request served 200
+2026-10-18T09:43:32Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:43:36Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:43:36Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:43:44Z INFO request served 200
+2026-10-18T09:43:45Z INFO request served 200
+2026-10-18T09:43:57Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:43:57Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:43:57Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:44:12Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:44:16Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:44:20Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:44:24Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:44:24Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:44:27Z INFO request served 200
+2026-10-18T09:44:29Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:44:35Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:44:39Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:44:41Z INFO health check ok
+2026-10-18T09:44:52Z ERROR DB connection refused: orders-db:5432
+2026-10-18T09:44:58Z INFO request served 200
+2026-10-18T09:45:10Z INFO health check ok
+2026-10-18T09:45:35Z INFO request served 200
+2026-10-18T09:46:39Z INFO health check ok
+2026-10-18T09:46:56Z INFO cache hit
+2026-10-18T09:47:23Z INFO request served 200
+2026-10-18T09:47:41Z INFO request served 200
+2026-10-18T09:48:13Z INFO request served 200
+2026-10-18T09:48:44Z INFO request served 200
+2026-10-18T09:49:42Z INFO cache hit
+2026-10-18T09:49:42Z INFO request served 200
+2026-10-18T09:50:14Z INFO cache hit
+2026-10-18T09:50:25Z INFO health check ok
+2026-10-18T09:51:12Z INFO cache hit
+2026-10-18T09:51:46Z INFO request served 200
+2026-10-18T09:52:30Z INFO health check ok
+2026-10-18T09:52:52Z INFO cache hit
+2026-10-18T09:53:35Z INFO request served 200
+2026-10-18T09:53:55Z INFO health check ok
+2026-10-18T09:54:29Z INFO health check ok
+2026-10-18T09:54:58Z INFO request served 200
+2026-10-18T09:55:14Z INFO cache hit
+2026-10-18T09:55:49Z ERROR Traceback: NullPointer in pricing.py
+2026-10-18T09:56:14Z INFO request served 200
+2026-10-18T09:56:26Z INFO request served 200
+2026-10-18T09:57:20Z INFO health check ok
+2026-10-18T09:57:55Z INFO health check ok
+2026-10-18T09:58:45Z ERROR payment gateway timeout after 3000ms
+2026-10-18T09:58:51Z INFO cache hit
+2026-10-18T09:59:16Z INFO cache hit
+2026-10-18T09:59:16Z INFO request served 200
