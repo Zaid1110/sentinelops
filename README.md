@@ -1,5 +1,7 @@
 # sentinelops — Kubernetes Anomaly Detector + Slack Alerts
 
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white) ![License: MIT](https://img.shields.io/badge/License-MIT-green) ![Demo: no cluster needed](https://img.shields.io/badge/demo-no_cluster_needed-orange)
+
 ## What this is
 
 sentinelops watches Kubernetes events and container logs, detects known-bad
@@ -41,6 +43,40 @@ to incidents instead of catching them in the first minutes.
 | `kubectl get events` scrolled manually; CrashLoopBackOff found 30 min after it started | `sentinelops.py detect` → `[CRITICAL] CrashLoopBackOff x4` with pod + fix in seconds |
 | Error-rate spike noticed only when dashboards are checked | Log spike detection flags the 5-minute window automatically |
 | On-call writes the incident summary from scratch in Slack | Summary + recommended actions generated; dry-run payload reviewed, one flag to post |
+
+## See it in action
+
+**From warning spam to a ranked incident summary**
+
+```text
+$ ./demo.sh
+=== sentinelops demo (heuristic mode, dry-run Slack) ===
+
+# sentinelops incident summary (heuristic mode)
+
+## [CRITICAL] CrashLoopBackOff x4
+- Affected: production/orders-api-7d9f4b6c5d-x2qzv
+- Recommended action: Check `kubectl logs <pod> --previous` for the crash reason, fix the code/config, and verify liveness/readiness probes are not killing a slow-starting container.
+
+## [CRITICAL] OOMKilled x1
+- Affected: production/payments-5c6d8f9a4b-p7m2k
+- Recommended action: Raise the container memory limit (or fix the memory leak), then re-deploy. Check for unbounded caches / connection pools.
+
+## [HIGH] ImagePullBackOff x2
+- Affected: staging/inventory-svc-6b8c2d4e5f-t4r1n
+- Recommended action: Verify the image tag exists in the registry and the imagePullSecret is valid; fix the tag or registry credentials.
+
+## [HIGH] FailedScheduling x2
+- Affected: production/search-api-9a1b2c3d4e-k8s9q
+- Recommended action: The cluster has no room for the pod. Scale the node pool (cluster autoscaler), lower the pod requests, or free capacity.
+
+## [HIGH] Error-rate spike x45
+- Affected: log window 2026-10-18T09:40..2026-10-18T09:44
+- Recommended action: 45 error lines in the 2026-10-18T09:40..2026-10-18T09:44 window vs a baseline of ~1/min. Correlate with deploys or traffic changes around that time; check the dominant error message in that window.
+
+--- DRY RUN: payload that WOULD be sent to Slack ---
+{
+```
 
 ## How to run the demo
 
